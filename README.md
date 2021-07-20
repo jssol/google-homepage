@@ -1,0 +1,2 @@
+This project is really easy at least the first version of it(only copying the google home page) but it just get a little bit harder with the second version (the search page).
+But you don't really need to copy the source code from Google.
