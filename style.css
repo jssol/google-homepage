@@ -1,0 +1,219 @@
+body {
+    font-family: Montserrat, Roboto, Lato;
+    font-size: 0.8rem;
+}
+
+img {
+    width: 25px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+nav #right-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#right-cont a img {
+    margin-top: 5px;
+}
+
+#right-cont button {
+    color: #FFF;
+    background-color: #4488db;
+    height: 30px;
+    width: 70px;
+    border-radius: 2.5px;
+    justify-self: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#left-text {
+    width: 90px;
+    margin-left: 25px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+    text-justify: center;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #000;
+    transition: color .3s ease, text-decoration .3s ease;
+}
+
+.nav-text a:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-cont {
+    margin-top: -125px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 272px;
+    height: auto;
+}
+
+form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchbar {
+    width: 220%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: -5px;
+    transition: box-shadow .1s ease, border-style .1s ease;
+}
+
+#searchbar:hover {
+    border-style: none;
+    box-shadow: 0px 0px 5px rgb(200, 200, 200);
+}
+
+#searchbar #lefticon {
+    width: 25px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#searchbar #righticon {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#searchbar input {
+    width: 85%;
+    height: 100%;
+    border-style: none;
+}
+
+#buttons {
+    height: 35px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#buttons button {
+    height: inherit;
+    background-color: rgb(240, 240, 240);
+    color: rgb(85, 85, 85);
+    border-style: none;
+    font-family: inherit;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-weight: 540;
+}
+
+#buttons button:hover {
+    box-shadow: 0px 2px 4px rgb(180, 180, 180); 
+    color: rgb(50, 50, 50);
+    padding: 10px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+    width: 100%;
+    height: 37px;
+    background-color: rgb(240,240,240);
+    font-size: 0.8rem;
+    border: 1px solid rgb(220, 220, 220); 
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#footerleft {
+    margin-left: 30px;
+}
+
+#footerright {
+    margin-right: 30px;
+    width: 180px;
+}
+
+.footcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
